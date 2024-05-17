@@ -2,19 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -25,9 +12,51 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.App {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
+
+.navbar{
+  background-color: #333;
+  position: relative;
+
+}
+.logo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+
+}
+.logo p{
+  color:aliceblue;
+}
+
+.nav-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.nav-links a {
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  background-color: #302c2c;
+  border-radius: 15px;
+}
+
+
+
