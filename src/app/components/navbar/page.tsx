@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Navbar(){
     return(
         <nav className="navbar">
@@ -6,10 +8,10 @@ export default function Navbar(){
         </div>
             <div className="nav-links">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <Link href="/">Home</Link>
+            <Link href="/houses">Houses for sale</Link>
+            <Link href="/services">Services</Link>
+            <Link href="/contact">Contact</Link>
         </ul>
             </div>
         </nav>

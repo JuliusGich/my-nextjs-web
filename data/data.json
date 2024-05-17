@@ -1,0 +1,62 @@
+{
+    "properties": [
+      {
+        "id": 1,
+        "title": "House 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": 250000,
+        "imageUrl": "/image.jpg"
+      },
+      {
+        "id": 2,
+        "title": "House 2",
+        "description": "Vestibulum nec mauris nec neque pulvinar eleifend.",
+        "price": 350000,
+        "imageUrl": "/image2.jpg"
+      },
+      {
+        "id": 3,
+        "title": "House 3",
+        "description": "Vestibulum nec mauris nec neque pulvinar eleifend.",
+        "price": 650000,
+        "imageUrl": "/image3.jpg"
+      },
+      {
+        "id": 4,
+        "title": "House 4",
+        "description": "Vestibulum nec mauris nec neque pulvinar eleifend.",
+        "price": 350000,
+        "imageUrl": "/image4.jpg"
+      },
+      {
+        "id": 5,
+        "title": "House 5",
+        "description": "Vestibulum nec mauris nec neque pulvinar eleifend.",
+        "price": 350000,
+        "imageUrl": "/image5.jpg"
+      },
+      {
+        "id": 6,
+        "title": "House 6",
+        "description": "Vestibulum nec mauris nec neque pulvinar eleifend.",
+        "price": 350000,
+        "imageUrl": "/image6.jpg"
+      },
+      {
+        "id": 7,
+        "title": "House 7",
+        "description": "Vestibulum nec mauris nec neque pulvinar eleifend.",
+        "price": 350000,
+        "imageUrl": "/image7.jpg"
+      },
+      {
+        "id": 8,
+        "title": "House 8",
+        "description": "Vestibulum nec mauris nec neque pulvinar eleifend.",
+        "price": 350000,
+        "imageUrl": "/image8.jpg"
+      }
+      
+    ]
+  }
+  
